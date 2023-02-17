@@ -10,7 +10,7 @@ A few new functions are introduced:
 
 ### To Do
 - [ ] Add unit tests!
-- [ ] Allow vector iterpolation by adding a method to `indexat`
+- [x] Allow vector iterpolation by adding a method to `indexat`
 - [ ] More approaches to vector similarity
-- [x] Make it easier to pass in easing functions to vector interpolation
+- [ ] Make it easier to pass in easing functions to vector interpolation
 - [ ] Make it possible to normalise values in these arrays before running a similarity comparison for pure shape differences
