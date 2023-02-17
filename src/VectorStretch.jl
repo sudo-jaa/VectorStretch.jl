@@ -46,6 +46,9 @@ module VectorStretch
   "Interpolate between two numbers using an easing function."
   interpolate(a::Number, b::Number, t::AbstractFloat, easing::Function) = interpolate((a, b), easing(t))
 
+  "Add method to getindex that allows you to access an array at arbitrary float indices"
+  Base.getindex(collection::Vector{<:Number}, key::AbstractFloat) = interpolate(collection, key)
+
   "Expands a vector to a specific length, staying proportional in magnitude to the original vector."
   function vector_expand(i::Vector{<:Number}, n::Int)::Vector{AbstractFloat}
     len = length(i)

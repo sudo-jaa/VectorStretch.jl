@@ -12,4 +12,5 @@ A few new functions are introduced:
 - [ ] Add unit tests!
 - [ ] Allow vector iterpolation by adding a method to `indexat`
 - [ ] More approaches to vector similarity
-- [ ] Make it easier to pass in easing functions to vector interpolation
+- [x] Make it easier to pass in easing functions to vector interpolation
+- [ ] Make it possible to normalise values in these arrays before running a similarity comparison for pure shape differences
