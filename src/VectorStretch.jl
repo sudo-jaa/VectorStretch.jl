@@ -1,4 +1,6 @@
 module VectorStretch
+  export interpolate, similarity, vector_expand
+
   "Checks for a 0-index access or last-index access to a vector and returns early from a caller function"
   macro interpolate_return(t, i) 
       return esc(quote
@@ -85,4 +87,4 @@ module VectorStretch
     mB = sqrt(mB)
     return (dot) / ((mA) * mB)
   end
-end
+end # module

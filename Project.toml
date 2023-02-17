@@ -1,0 +1,13 @@
+name = "VectorStretch"
+uuid = "8529d161-5faa-4d78-9625-c72e7116070f"
+authors = ["James Adam"]
+version = "0.1.0"
+
+[compat]
+julia = "1"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
